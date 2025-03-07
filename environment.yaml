@@ -1,0 +1,7 @@
+name: kegg_env
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - requests
+      - lxml

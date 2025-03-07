@@ -1,0 +1,19 @@
+package:
+  name: pythway
+  version: "0.1.0"
+
+source:
+  path: .
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - requests
+    - lxml
+
+test:
+  imports:
+    - pythway
